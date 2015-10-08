@@ -1,0 +1,18 @@
+#top-navbar li .color-bar {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 12px;
+    height: 2px;
+    background: #FFF;
+}
+#top-navbar li a {
+    color: #b0bec5;
+}
+#top-navbar li.active{
+    background-color: rgba(0,0,0,0.2);
+}
+#top-navbar li.active a{
+    color: #fff;
+}

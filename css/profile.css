@@ -1,0 +1,80 @@
+#profile {
+    background: #fff;
+    color: #00465D;
+}
+
+#profile .col {
+    padding: 0;
+}
+
+#profile .valign-wrapper {
+    height: 100%;
+}
+
+.profile-contact .icon{
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 40px;
+    margin-top: 10px;
+    background-size: 28px 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #00465D;
+}
+
+img.circle {
+    width: 100px;
+}
+
+@media screen and (min-width: 48em) {
+    #profile, #profile-info, #profile .valign-wrapper, .profile-contact{
+        height: 220px;
+    }
+    #profile-info {
+        float: right !important;
+    }
+    #profile #brief-info {
+        padding: 0 25px;
+    }
+    #profile .profile-contact ul{
+        padding-left: 25px;
+        border-left-style: solid;
+        border-color: #D4D4D4;
+        border-width: 1px;
+    }
+}
+@media screen and (min-width: 1380px) {
+    #profile, #profile-info, #profile .valign-wrapper, .profile-contact{
+        height: 280px;
+    }
+}
+@media screen and (max-width: 48em) {
+    #profile, #profile-info, #profile .valign-wrapper, .profile-contact{
+        height: 160px;
+    }
+    #profile {
+        margin-bottom: 0;
+    }
+    #profile-info {
+        width: 272px;
+        margin: 0 auto;
+    }
+    #profile #brief-info {
+        padding: 0 0 0 20px;
+    }
+    .profile-contact.hide-on-med-and-up .icon{
+        padding-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-size: 32px 32px;
+        height: 32px;
+        line-height: 32px;
+    }
+    .profile-contact.hide-on-med-and-up ul li {
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .profile-contact.hide-on-med-and-up {
+        height: 292px;
+    }
+}

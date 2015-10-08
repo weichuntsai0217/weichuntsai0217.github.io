@@ -1,0 +1,22 @@
+#projects .card.project-item .slider div.lazy {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+#projects .card.project-item .card-content {
+    padding: 8px 20px 20px 20px;
+}
+#projects .modal-trigger.btn {
+    display: block;
+}
+#projects .card.project-item .card-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #757575!important;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #projects img[src*=".svg"] {
+        width: 100%; 
+    }
+}

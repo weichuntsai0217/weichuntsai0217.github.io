@@ -1,0 +1,202 @@
+body {
+    background: #EDEDEE;
+}
+nav {
+    background: #00465D;
+}
+nav .brand-logo {
+    font-size: 20px;
+}
+.icon {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0 0;
+}
+.icon.email {
+    background-image: url('../img/icon/email.svg');
+}
+.icon.location {
+    background-image: url('../img/icon/location.svg');   
+}
+.icon.linkedin {
+    background-image: url('../img/icon/linkedin.svg');
+}
+.icon.github {
+    background-image: url('../img/icon/github.svg');
+}
+.icon.summary{
+    background-image: url('../img/icon/summary.svg');
+}
+.icon.experience{
+    background-image: url('../img/icon/experience.svg');
+}
+.icon.projects{
+    background-image: url('../img/icon/projects.svg');
+}
+.icon.education{
+    background-image: url('../img/icon/education.svg');
+}
+.icon.skills{
+    background-image: url('../img/icon/skills.svg');
+}
+.card .card-header{
+    background: #ee6e73;
+    height: 64px;
+}
+.card .card-header .card-title {
+    margin: 0;
+}
+.card .card-header .card-title.icon {
+    margin: 0 20px;
+    padding-left: 40px;
+    background-size: 24px 24px;
+}
+.card .card-action a {
+    color: #03a9f4 !important;
+    text-transform: none;
+}
+.collection.default-collection {
+    border: none;
+    margin: 0;
+}
+.collection.default-collection .collection-item .symbol{
+    width: 20px;
+    display: table-cell;
+    position: relative;
+}
+.collection.default-collection .collection-item .symbol img{
+    position: absolute;
+    top: 0px;
+}
+.collection.default-collection .collection-item .words{
+    display: table-cell;
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 10px;
+    min-height: 25px;
+}
+.collection.default-collection .collection-item{
+    padding: 10px 5px;
+    border-bottom: none;
+}
+.collection.default-collection .collection-item h6 {
+    font-size: 16px;
+}
+.collection.default-collection .collection-item p {
+    font-size: 14px;
+}
+.collection.default-collection .collection-item .job-title{
+    color: #ee6e73;
+}
+.collection.default-collection .collection-item .company-name {
+    color: #888;
+}
+.section-logos {
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -mox-box-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    margin-bottom: 40px;
+    width: 100%;
+    padding: 20px;
+}
+.img-wrap {
+    position: relative;
+    -mox-box-flex: 0 0 33.33333%;
+    -ms-flex: 0 0 33.33333%;
+    -webkit-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    -ms-flex-item-align: stretch;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.img-wrap img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+.img-wrap h6 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #757575!important;
+    bottom: 0;
+}
+.slider .indicators .indicator-item  {
+    margin: 0 8px;
+}
+@media screen and (min-width: 48em) {
+    nav .brand-logo {
+        margin-left: 30px;
+    }
+    .small-container-desktop {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 48em) {
+    nav .brand-logo {
+        margin-left: 0;
+    }
+    .big-container-mobile {
+        width: 86%;
+    }
+}
+@media (min-width: 768px) {
+    .img-wrap {
+        -mox-box-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+        -webkit-flex: 0 0 25%;
+        flex: 0 0 25%;
+    }
+}
+@media (min-width: 900px) {
+    .img-wrap {
+        -mox-box-flex: 0 0 20%;
+        -ms-flex: 0 0 20%;
+        -webkit-flex: 0 0 20%;
+        flex: 0 0 20%;
+    }
+}
+@media (min-width: 1000px) {
+    .img-wrap {
+        -mox-box-flex: 0 0 16.66667%;
+        -ms-flex: 0 0 16.66667%;
+        -webkit-flex: 0 0 16.66667%;
+        flex: 0 0 16.66667%;
+    }
+}
+@media screen and (max-width: 48em) {
+	.img-wrap {
+	    flex: 0 0 50%;
+	}
+}
