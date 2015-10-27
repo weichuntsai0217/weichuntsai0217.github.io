@@ -1,26 +1,28 @@
 <?xml version="1.0"?>
-<svg width="396" height="280" xmlns="http://www.w3.org/2000/svg">
+<svg width="260" height="280" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
 
  <g>
   <title>background</title>
-  <rect x="-1" y="-1" width="398" height="282" id="canvas_background" fill="none"/>
-  <g id="canvasGrid" display="none">
-   <rect id="svg_1" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  <rect fill="none" id="canvas_background" height="282" width="262" y="-1" x="-1"/>
+  <g display="none" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_1"/>
   </g>
  </g>
  <g>
   <title>Layer 1</title>
-  <rect fill="#00465d" stroke-width="1.5" x="203" y="0.5" width="6" height="280" id="svg_2"/>
-  <ellipse fill="#00465d" stroke-width="1.5" cx="205.5" cy="62" id="svg_3" rx="15" ry="15"/>
-  <ellipse fill="#0192eb" stroke-width="1.5" cx="114" cy="133.5" id="svg_4"/>
-  <ellipse fill="#ffffff" stroke-width="1.5" cx="205.5" cy="140" id="svg_5" rx="15" ry="15" stroke="#00465d"/>
-  <ellipse fill="#ffffff" stroke-width="1.5" cx="205.5" cy="216" id="svg_6" rx="15" ry="15" stroke="#00465d"/>
-  <text fill="#00465d" stroke-width="0" x="228" y="58.5" id="svg_7" font-size="16" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Master of Physics, NTU</text>
-  <text fill="#00465d" stroke-width="0" x="1" y="136.5" id="svg_9" font-size="16" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">Bachelor of Physics, NTU</text>
-  <text fill="#00465d" stroke-width="0" x="228" y="212.5" id="svg_10" font-size="16" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">KS High School</text>
-  <text fill="#888888" stroke-width="0" x="228" y="80.5" id="svg_11" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">2008 - 2011</text>
-  <text fill="#888888" stroke-width="0" x="87" y="159.5" id="svg_12" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">2004 - 2008</text>
-  <text fill="#888888" stroke-width="0" x="228" y="233.5" id="svg_13" font-size="18" font-family="Helvetica, Arial, sans-serif" text-anchor="left" xml:space="preserve">2001 - 2004</text>
+  <rect id="svg_2" height="280" width="6" y="0.5" x="13" stroke-width="1.5" fill="#00465d"/>
+  <ellipse ry="15" rx="15" id="svg_3" cy="62" cx="15.5" stroke-width="1.5" fill="#00465d"/>
+  <ellipse id="svg_4" cy="133.5" cx="149" stroke-width="1.5" fill="#0192eb"/>
+  <ellipse stroke="#00465d" ry="15" rx="15" id="svg_5" cy="140" cx="15.5" stroke-width="1.5" fill="#ffffff"/>
+  <ellipse stroke="#00465d" ry="15" rx="15" id="svg_6" cy="216" cx="15.5" stroke-width="1.5" fill="#ffffff"/>
+  <text stroke="null" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_7" y="69.5" x="36" stroke-width="0" fill="#00465d">Master of Science in Physics</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_9" y="146.5" x="36" stroke-width="0" fill="#00465d">Bachelor of Science in Physics</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_10" y="212.5" x="36" stroke-width="0" fill="#00465d">KS High School</text>
+  <text stroke="null" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_11" y="89.5" x="36" stroke-width="0" fill="#888888">2008 - 2011</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_12" y="165.5" x="36" stroke-width="0" fill="#888888">2004 - 2008</text>
+  <text xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="18" id="svg_13" y="232.5" x="36" stroke-width="0" fill="#888888">2001 - 2004</text>
+  <text stroke="null" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_8" y="53.5" x="36" stroke-width="0" fill="#00465d">National Taiwan University</text>
+  <text stroke="null" xml:space="preserve" text-anchor="left" font-family="Helvetica, Arial, sans-serif" font-size="16" id="svg_14" y="129.5" x="36" stroke-width="0" fill="#00465d">National Taiwan University</text>
  </g>
 </svg>
