@@ -4,3 +4,12 @@
 #experience .collection.default-collection .collection-item:last-child{
     border-bottom: none;
 }
+#experience .collection.default-collection .collection-item .job-time{
+	float: right;
+}
+@media screen and (max-width: 767px){
+    #experience .collection.default-collection .collection-item .job-time{
+		float: none;
+		display: block;
+	}	
+}
